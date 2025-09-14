@@ -1,0 +1,59 @@
+//RESET
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+button {
+    border: none;
+    background-color: initial;
+    outline: none;
+    font: inherit;
+    color: inherit;
+  }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+input{
+    border: none;
+    box-sizing:content-box;
+}
+
+body::-webkit-scrollbar {
+   
+    display: none;
+}
+
+
+
+
+
+// ---------------------
+
+
+.App{
+    font-family: "Montserrat", sans-serif;
+    background-color: #FCFBFB;
+    
+    
+    
+}
+
+.app__order{
+    max-width: 1444px;
+    
+    
+}
+
+// font-family: "Roboto", sans-serif
+

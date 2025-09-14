@@ -1,0 +1,145 @@
+.carousel{
+    margin: 20px 80px;
+}
+
+.order__carousel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel__card{
+    width: 273px;
+    height: 538px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    padding: 16px 16px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+
+}
+
+.image__container{
+    width: 241px;
+    height: 223px;
+    position: relative;
+}
+
+.carousel__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    
+
+
+}
+
+.carousel__discount{
+    font-family: "Roboto";
+    font-size: 16px;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    background-color: #219653;
+    padding: 8px 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.product__title{}
+
+.product__name{
+    color: #2F3825;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.product__desc{
+    color: #858585;
+    font-size: 16px;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+}
+
+.stars{
+    color: #EBE54B;
+}
+
+.ratingnum{
+    font-family: "Roboto";
+    color: #858585;
+    margin-left: auto;
+    font-size: 16px;
+}
+
+.price{
+    display: flex;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: space-between;
+
+}
+
+.pricewas{
+    text-decoration: line-through;
+    color: #E4420F;
+}
+
+.pricenow{
+    color: #219653
+}
+
+.lines{
+    width: 242px;
+    height: 2px;
+    background-color: #CFCFCF;
+}
+
+.orange__div{
+    width: 148px;
+    height: 2px;
+    background-color:#FE9C2F;
+}
+
+.how__many__sold{}
+
+.carousel__btn{
+    background-color: #FE9C2F;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 48px;
+}
+
+.btn__addtocart{}
+
+
+
+
+@media screen and (max-width: 1236px) {
+    .carousel__card:nth-of-type(4){
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1040px) {
+
+    .order__carousel{
+        justify-content: center;
+    }
+
+
+    .carousel__card:nth-of-type(3){
+        display: none;
+    }
+}

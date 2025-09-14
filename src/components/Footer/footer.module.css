@@ -1,0 +1,153 @@
+.footer{
+
+}
+
+.foo__top{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    position: relative;
+}
+
+.foo__top::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #CFCFCF;
+    position: absolute;
+    left: 0px;
+    bottom: -24px;
+    
+}
+
+.foo__list{
+    display: flex;
+    column-gap: 32px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.foo__item{
+    padding: 10px;
+}
+
+.foo__link{
+    display: flex;
+    column-gap: 14px;
+}
+
+.foo__link__apple{
+    padding-left: 8px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 172px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #2C5E30;
+    color: white;
+    column-gap: 8px;
+}
+.apple__flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.apple__text__top{
+    font-size: 12px;
+}
+
+.apple__text__bottom{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+
+.foo__link__google{
+    padding-left: 8px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 172px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #2C5E30;
+    color: white;
+    column-gap: 8px;
+}
+
+.google__flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.google__text__top{
+    font-size: 12px;
+}
+
+
+.google__text__bottom{
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.foo__bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+.copyright__symbol{
+    width: 20px;
+    height: 20px;
+}
+
+.foo__footer{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.foo__icons{
+    display: flex;
+    padding: 10px 10px;
+    column-gap: 32px;
+    color: #5B9420;
+
+}
+
+.foo__icons__list{
+
+}
+
+
+
+@media screen and (max-width: 1040px) {
+
+    .foo__top{
+        flex-direction: column;
+    }
+
+    .foo__list{
+        justify-content: space-evenly;
+        margin-bottom: 40px;
+    }
+
+    .foo__link{
+        justify-content: space-evenly;
+    }
+
+}

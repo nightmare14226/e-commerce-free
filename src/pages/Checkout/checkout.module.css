@@ -1,0 +1,223 @@
+.checkout {
+    padding-left: 80px;
+    padding-top: 32px;
+    display: flex;
+    margin-bottom: 115px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 601px;
+    margin-bottom: 218px;
+
+}
+
+.cardtype {
+    margin-left: 24px;
+}
+
+.formpayment {
+    margin-top: 15px;
+}
+
+.form {}
+
+.form__savedcards {
+    display: flex;
+    /* justify-content: space-between; */
+    column-gap:16px;
+    margin: 0 24px;
+}
+
+.btn__left {
+    display: flex;
+    width: 268.5px;
+    height: 80px;
+    border: 2px solid #5B9420;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/* .btn__card{
+    display: flex;
+    height: 80px;
+    border: 2px solid #5B9420;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+    
+} */
+
+.form__name {}
+
+.form__radioinput {}
+
+.btn__right {
+    width: 268.5px;
+    display: flex;
+    height: 80px;
+    border: 2px solid #5B9420;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.form__radioinput {}
+
+.form__details {
+    display: flex;
+    flex-direction: column;
+    margin: 0 24px;
+}
+
+
+.form__label {
+    margin-top: 24px;
+
+}
+
+.form__input__fullname {
+    height: 56px;
+    
+    margin-right: 48px;
+    border: 2px solid #EAEBE9;
+    border-radius: 8px;
+    padding-left: 24px;
+    margin-top: 8px;
+   
+    
+    
+}
+
+.form__input__fullname::placeholder,
+.form__input__password::placeholder,
+.expirydate__date::placeholder,
+.cvc__code::placeholder{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #2F3825;
+}
+
+.form__label {
+    
+}
+
+.form__input__password {
+    height: 56px;
+    
+    margin-right: 48px;
+    border: 2px solid #EAEBE9;
+    border-radius: 8px;
+    padding-left: 24px;
+    margin-top: 8px;
+    
+    
+}
+
+
+
+.expiry {
+    display: flex;
+    margin: 0 24px;
+    margin-top: 24px;
+    height: 88px;
+}
+
+.expirydate {
+    display: flex;
+    flex-direction: column;
+}
+
+.expirydate__text {}
+
+.expirydate__date {
+    height: 56px;
+    margin-right: 48px;
+    border: 2px solid #EAEBE9;
+    border-radius: 8px;
+    padding-left: 24px;
+    margin-top: 8px;
+    
+}
+
+.cvc {      
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+
+}
+
+.cvc__text {}
+
+.cvc__code {
+    height: 56px;
+    margin-right: 48px;
+    border: 2px solid #EAEBE9;
+    border-radius: 8px;
+    padding-left: 24px;
+    margin-top: 8px;    
+    
+}
+
+.checkbox {
+    margin: 40px 24px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.checkbox__input[type="checkbox"] {
+   accent-color: white;
+   color: #F2994A;
+   width: 24px;
+   height: 24px;
+   margin-right:8px;
+   background: white;
+   outline: 3px solid #F2994A;
+}
+
+
+
+.checkbox__text {
+    font-family: "Roboto";
+    color: #979C92;
+    font-size: 18px;
+}
+
+.makepayment {
+    display: flex;
+    margin: 0 24px;
+    color: white;
+    
+}
+
+.makepayment__btn {
+    width: 553px;
+    height: 60px;
+    margin-right: 48px;
+    
+    border-radius: 8px;
+    padding-left: 24px;
+    background-color: #F2994A;
+    font-family: "Roboto";
+    font-size: 16px;
+    
+    
+}
+
+.makepayment__text {
+    
+
+}
+
+
+.shipping{
+    margin-left: 80px;
+    
+    
+}

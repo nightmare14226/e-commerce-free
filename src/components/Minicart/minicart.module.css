@@ -1,0 +1,137 @@
+.cartitems{
+    /* margin: 0 32px; */
+    margin-top: 32px;
+    position: relative;
+    width: 596px;
+    }
+    
+    .cartitems::after{
+        content: "";
+        width: 100%;
+        height: 1px;
+        background-color: #CFCFCF;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        
+    }
+    
+    .cartitems__product{
+        display: flex;
+        /* margin-left:32px; */
+        margin-right: 12px;
+        align-items: center;
+        padding-top: 32px;
+        margin-bottom: 32px;
+        position: relative;
+        
+    }
+
+    .cartitems__product::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        bottom: -32px;
+        background-color: #CFCFCF;
+    }
+    
+    .cartitems__image{
+       
+        display: flex;
+        align-items: center;
+    }
+    
+    .cartitems__img{
+        width: 96px;
+        height: 96px;
+       
+    }
+    
+    .cartitems__product__desc{
+        margin-left: 12px;
+    }
+    
+    .product__name{
+        font-size: 24px;
+        
+        font-weight: 600;
+    }
+    
+    .product__category{
+        color:#5B9420;
+        font-size: 16px;
+        margin-bottom: 8px
+        
+    }
+    
+    .product__weigh{
+        font-family: "Roboto";
+        color:#828282;
+        font-size: 16px
+        ;
+    }
+    
+    .buydesc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 8px;
+        margin-left: auto;
+    }
+    
+    .buydesc__price{
+       
+    font-size: 18px;
+    font-weight: 400;
+    
+    
+    }
+    
+    .buydesc__quantity{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 110px;
+        height: 72px;
+        border: 1px solid #979C92;
+        border-radius: 8px;
+        column-gap: 18px;
+        
+    }
+    
+    .buydesc__quantity__num{
+        font-family: "Roboto";
+        font-size: 24px;
+        font-weight: 400;
+        color:#818181;
+        text-align: center;
+        
+    
+    }
+    
+    .buydesc__btns{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .bydesc__btnup{}
+    
+    .bydesc__btndown{}
+    
+    .buydesc__total{
+        
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+    
+    }
+    
+    .cartitems__icon{
+        margin-left: 64px;
+    }
+    
+    .cartitems__remove{}
+    
+    
